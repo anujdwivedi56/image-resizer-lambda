@@ -13,12 +13,13 @@
     {
       "Effect": "Allow",
       "Action": ["s3:GetObject"],
-      "Resource": "arn:aws:s3:::BUCKET_NAME/*"
+      "Resource": "arn:aws:s3:::myawsbucketdest12
+/*"
     },
     {
       "Effect": "Allow",
       "Action": ["s3:PutObject"],
-      "Resource": "arn:aws:s3:::DEST_BUCKET/*"
+      "Resource": "arn:aws:s3:::image.destination/*"
     }
   ]
 }
